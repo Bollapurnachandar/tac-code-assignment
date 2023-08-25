@@ -6,11 +6,11 @@ given an array A of length N.
 **-->**The ﬁrst line of each test case contains an integer N - the length of the array A.
 **-->**The second line of each test case contains N space-separated integers.
 
-i used python programming approach to solve this problem approach
- I creatted a function to get gcd of 2 numbers and another function to get lcm of two numbers
- main function to check gcd==lcm if satisfies the condition  increased the count value by 1 and return thr count value
- i followed unit test cases input conditions first T will be taken as input for number of test cases
- next in the loop for every test case in first i  have taken input N as the length of an aray
+i used python programming approach to solve this problem 
+ I created a function to get **gcd of 2 numbers** and another function to **get lcm of two numbers**
+and  **main function ** to check gcd==lcm if satisfies the condition  increased the count value by 1 and return thr count value
+ i followed unit test cases input conditions **first T will be taken as input for number of test cases**
+ next in the loop **for every test case in first i  have taken input N as the length of an array**
  in the second line of every test case input in the form space separated integers as input
- and calling the main function to get checked whether gcd=lcm and printing the count valiue
+ and calling **the main function to get checked whether gcd=lcm and printing the count valiue**
  

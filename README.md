@@ -4,13 +4,20 @@ given an array A of length N.
 **input conditions:**
 **-->**The ﬁrst line of input will contain a single integer T, denoting the number of test cases
 **-->**The ﬁrst line of each test case contains an integer N - the length of the array A.
-**-->**The second line of each test case contains N space-separated integers.
+**-->**The second line of each test case contains N space-separated integers.<br/>
+**Note:-**<br/>
+**execute the client.py file <br/>client.py and tacmain.py should be in same folder**<br/>
 
-i used python programming approach to solve this problem 
- I created a function to get **gcd of 2 numbers** and another function to **get lcm of two numbers**
-and  **main function ** to check gcd==lcm if satisfies the condition  increased the count value by 1 and return thr count value
- i followed unit test cases input conditions **first T will be taken as input for number of test cases**
- next in the loop **for every test case in first i  have taken input N as the length of an array**
- in the second line of every test case input in the form space separated integers as input
- and calling **the main function to get checked whether gcd=lcm and printing the count valiue**
+**Approach:-**
+s<br/> in **client.py**
+ T  is user input for number of test cases<br/>
+ in loop take N as input for length of an array<br/>
+ if length of array is <1 raise an Exception that "No Pair"<br/>
+ enter elements as space separated integers into A by user input<br/>
+ call the main function which consists return total no of good pair count print the total good pair count<br/>
+  in **tacmain.py**<br/>
+create a function for gcd of two numbers<br/>
+create a function for lcm of two numbers<br/>
+create a mian function which contains condition to become a good pair<br/>
+increase the good_pair_count by 1 and return the value
  

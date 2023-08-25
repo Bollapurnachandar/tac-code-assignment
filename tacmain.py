@@ -22,15 +22,18 @@ def total_good_pair(array):
     good_pair_count=0
     #length of array is same as N
     size=len(array)
-    #for loop to iterate over an array 
-    for first in range(size):
+    if(size>1):
+        #for loop to iterate over an array 
+        for first in range(size):
         #for loop to iterate from first+1 index to end of the array
-        for second in range(first+1,size):
+            for second in range(first+1,size):
             # main condition to satisfy to be a good pair
-            if(get_gcd_value(array[first],array[second])==get_lcm_value(array[first],array[second])):
+                if(get_gcd_value(array[first],array[second])==get_lcm_value(array[first],array[second])):
                 #increasing good_pair_count by 1
-                good_pair_count=good_pair_count+1
-    return good_pair_count
+                    good_pair_count=good_pair_count+1
+        return good_pair_count
+    else:
+         raise Exception("NO pair")
 
 
 
